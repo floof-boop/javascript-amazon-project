@@ -184,23 +184,6 @@ const products = [
     ]
   },
   {
-    id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/products/women-beach-sandals.jpg",
-    name: "Women's Two Strap Buckle Sandals - Tan",
-    rating: {
-      stars: 4.5,
-      count: 562
-    },
-    priceCents: 2499,
-    keywords: [
-      "footwear",
-      "sandals",
-      "womens",
-      "beach",
-      "summer"
-    ]
-  },
-  {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
     image: "images/products/blackout-curtain-set-beige.webp",
     name: "Blackout Curtains Set 4-Pack - Beige",
