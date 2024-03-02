@@ -1,4 +1,5 @@
 import {cart} from '../data/cart.js'; //.. is parent dir
+import {products} from '../data/products.js';
 
 let productsHTML = '';
 
