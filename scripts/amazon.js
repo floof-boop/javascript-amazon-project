@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js'; //.. is parent dir
+
 let productsHTML = '';
 
 products.forEach((product) => {
@@ -72,7 +74,7 @@ document.querySelectorAll('.js-add-to-cart')
             //if item exists increase the count
             if(matchingItem) {
                 matchingItem.quantity += 1;
-            } else{
+            } else {
                 cart.push({
                     productId: productId,
                     quantity: 1
@@ -85,6 +87,6 @@ document.querySelectorAll('.js-add-to-cart')
             
             document.getElementById("js-cart").innerHTML = cartQuantity
 
-            console.log(typeof(cartQuantity));
+            //console.log(typeof(cartQuantity));
         });
     });
