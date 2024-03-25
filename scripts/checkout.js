@@ -21,10 +21,14 @@ cart.forEach((cartItem) => {
     //console.log(matchingProduct);
   });
   //console.log(matchingProduct);
+  const today_HTML = dayjs();
+  const def_DATE = today_HTML.add(7, 'days');
+  const def_DATE_read = def_DATE.format('dddd, MMMM D');
+
   cartSummaryHTML += `
     <div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
       <div class="delivery-date">
-        Delivery date: Tuesday, June 21
+        Estimated Delivery date: ${def_DATE_read}
       </div>
 
       <div class="cart-item-details-grid">
