@@ -28,7 +28,7 @@ cart.forEach((cartItem) => {
   cartSummaryHTML += `
     <div class="cart-item-container js-cart-item-container-${matchingProduct.id}">
       <div class="delivery-date">
-        Estimated Delivery date: ${def_DATE_read}
+        Estimated delivery date: ${def_DATE_read}
       </div>
 
       <div class="cart-item-details-grid">
